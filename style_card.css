@@ -1,0 +1,49 @@
+body{
+    background-image: url(imagenes/fondo_azul.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+@font-face {
+    font-family: 'ferro_rosso';
+    src: url(ferro_rosso/FerroRosso.ttf) ;
+}
+
+.card{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    background-color: rgba(17, 107, 46, 0.088);
+
+}
+h1{
+    text-align: center;
+    font-family: "ferro_rosso";
+    color: rgb(207, 252, 255);
+    letter-spacing: 3px;
+}
+img{
+    width:350px;
+    height: auto;
+    filter: contrast(70%) saturate(400%);
+    border-radius: 20px;
+    margin: 10px 125px 10px 125px;
+}
+
+p{
+    width: 400px;
+    margin: 20px 100px 0 100px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-family: tahoma;
+    line-height: 25px;
+}

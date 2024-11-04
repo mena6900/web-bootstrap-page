@@ -1,0 +1,73 @@
+body{
+    background-image: url(imagenes/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    height: 100vh; /* toma el 100% de la altura de la pantalla */
+   
+
+
+}
+
+.form{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.499);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-self: flex-start;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px 4px rgba(255, 255, 255, 0.67);
+    transition: 0.5s ease;
+    margin-top: 10%;
+
+  
+}
+
+.form:hover{
+    box-shadow: 2px 5px 5px 4px rgba(255, 149, 1, 0.587);
+}
+
+form{
+    width: 100%;
+    padding-top: 30px;
+    height: 60%;
+    margin: 60px 50px 0 50px;
+   
+}
+.input{
+    width: 300px;
+    margin-bottom: 30px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 204, 18, 0.802);
+    background-color: transparent;
+    color: rgba(255, 212, 59, 0.97);
+    padding: 5px;
+    transition: 0.4s ease;
+}
+.input:hover{
+    background-color: rgba(255, 204, 18, 0.237);
+}
+
+.btn{
+width: 100px;
+height: 30px;
+margin-left: 100px;
+box-shadow: 2px -1px 12px 10px  rgba(255, 204, 18, 0.145); 
+transition: 0.7s ease;
+background-color:   rgba(255, 204, 18, 0.443);
+color: white;
+}
+.btn:hover{
+    box-shadow: 2px -1px 12px 10px  rgba(255, 204, 18, 0.661); 
+    background-color:   rgba(255, 204, 18, 0.166);
+    color:  rgb(255, 204, 18);
+
+}

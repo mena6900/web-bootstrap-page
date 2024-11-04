@@ -1,0 +1,120 @@
+body{
+    background-color:rgba(255, 196, 140, 0.295) ;
+}
+
+.card{
+    color: blue;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 20px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:rgba(250, 128, 114, 0.397);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+@font-face {
+    font-family:"coffe";
+    src: url(coffee_town/Coffee\ Town.ttf) ;
+    
+}
+
+.navbar{
+margin-bottom: 10%;
+
+}
+.navbar-brand{
+    font-family: "coffe";
+    font-size: 150%;
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover{
+    color: rgb(255, 195, 140);
+}
+
+.nav-link{
+    color: white;
+}
+
+.active{
+    color: white;
+}
+.dropdown-menu{
+    background-color: rgba(250, 128, 114, 0.397);
+}
+.dropdown-item{
+    background-color: rgba(250, 128, 114, 0.397);
+    transition: 0.5s;
+}
+.dropdown-item:hover{
+    background-color: rgba(255, 194, 187, 0.445);
+}
+
+.btn{
+    background-color: rgba(255, 166, 157, 0.993);
+    border: 2px solid white;
+    color: white;
+    transition: 0.5 s;
+}
+
+.btn:hover{
+    background-color: rgb(250, 128, 114);
+    border: 2px solid rgb(255, 234, 210);
+}
+.carousel{
+    margin: 0 20% 30% 30%;
+    box-shadow: 25px 15px 15px rgba(0, 0, 0, 0.308);
+    width: 40%;
+    height: auto;
+    border: 3px solid rgb(255, 255, 255);
+
+    transition: 0.5s;
+    
+}
+.carousel:hover{
+    border: 3px solid rgb(255, 195, 140);
+}
+.navbar{
+    font-family: tahoma;
+  
+    
+    
+}
+.navbar-brand{
+color: rgb(253, 214, 210);
+}
+
+.container-fluid{
+    background-color: salmon;
+    padding: 1%;
+   
+    border-bottom: 12px solid rgba(255, 255, 255, 0.212);
+    
+}
+
+#input_search{
+    
+    border-radius: 20px;
+    border: none;
+    margin-right: 5%;
+    background-color:  rgba(255, 166, 157, 0.993);
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+h5{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+p{
+    font-weight: 500;
+}
+
